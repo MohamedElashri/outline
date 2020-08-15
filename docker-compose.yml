@@ -1,0 +1,49 @@
+version: "3"
+services:
+  redis:
+    image: redis
+    restart: always
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: outline
+    volumes:
+      - ./data/pgdata:/var/lib/postgresql/data
+    restart: always
+  minio:
+    image: minio/minio
+    volumes:
+      - ./data/minio_root:/minio_root:z
+      - ./data/certs:/root/.minio/certs:z
+    command: "minio server /minio_root"
+    env_file: ./env.minio
+    restart: always
+  outline:
+    # TODO: remove hardcoded version
+    image: outlinewiki/outline:version-0.45.0
+    command: sh -c "yarn build && yarn sequelize db:migrate && yarn start"
+    environment:
+      - DATABASE_URL=postgres://user:pass@postgres:5432/outline
+      - DATABASE_URL_TEST=postgres://user:pass@postgres:5432/outline-test
+      - REDIS_URL=redis://redis:6379
+    env_file:
+      - ./env.outline
+      - ./env.slack
+    restart: always
+    depends_on:
+      - postgres
+      - redis
+      - minio
+  nginx:
+    image: nginx
+    ports:
+      - 8888:80
+      - 4443:443
+    volumes:
+      - ./data/nginx/:/etc/nginx/conf.d/:z
+      - ./data/certs/:/etc/ssl/certs/:z
+    restart: always
+    depends_on:
+      - outline
