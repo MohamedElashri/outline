@@ -21,3 +21,4 @@ make install
 
 Then you should follow intructions and fill the required values from your slack app and you server information 
 
+oringinal work by https://github.com/chsasank/outline-wiki-docker-compose
