@@ -10,7 +10,7 @@
 			{
 				"name": "nginx",
 				"tag": "latest",
-				"digest": "b3fd36ee0d95f02ad2484961fe55a73a10f77438ab9e14c47d69001d3156c582",
+				"digest": "10b8cc432d56da8b61b070f4c7d2543a9ed17c2b23010b43af434fd40e2ca4aa",
 				"service": "nginx"
 			},
 			{
@@ -28,7 +28,7 @@
 			{
 				"name": "redis",
 				"tag": "latest",
-				"digest": "0f724af268d0d3f5fb1d6b33fc22127ba5cbca2d58523b286ed3122db0dc5381",
+				"digest": "50a65c98d3a7b42eb5e6484e7c89af307b3a1717189218e4fce1cad8b81dd295",
 				"service": "redis"
 			}
 		]
