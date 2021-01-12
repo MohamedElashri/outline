@@ -4,13 +4,13 @@
 			{
 				"name": "minio/minio",
 				"tag": "latest",
-				"digest": "434805a8e446a8430ac2c40302d3175aaea837edf053b3fbd4d1c90ab70954ab",
+				"digest": "714528721cac6e7fcdeb345aed760161c88834d1cf103f04a3b7dd586f0765f8",
 				"service": "minio"
 			},
 			{
 				"name": "nginx",
 				"tag": "latest",
-				"digest": "4cf620a5c81390ee209398ecc18e5fb9dd0f5155cd82adcbae532fec94006fb9",
+				"digest": "10b8cc432d56da8b61b070f4c7d2543a9ed17c2b23010b43af434fd40e2ca4aa",
 				"service": "nginx"
 			},
 			{
@@ -22,13 +22,13 @@
 			{
 				"name": "postgres",
 				"tag": "latest",
-				"digest": "a160a47b02773829c9927b1a85561e138f71f52ca7a517c309773c1c44137c1e",
+				"digest": "5370e3370ecc20a4a2935fc29efb760af091bb6615526b541d42664dfbea3998",
 				"service": "postgres"
 			},
 			{
 				"name": "redis",
 				"tag": "latest",
-				"digest": "0f724af268d0d3f5fb1d6b33fc22127ba5cbca2d58523b286ed3122db0dc5381",
+				"digest": "50a65c98d3a7b42eb5e6484e7c89af307b3a1717189218e4fce1cad8b81dd295",
 				"service": "redis"
 			}
 		]
