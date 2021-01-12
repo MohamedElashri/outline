@@ -10,7 +10,7 @@
 			{
 				"name": "nginx",
 				"tag": "latest",
-				"digest": "dddbe66da4eaf18e79050a4760cba6937e1c96ae305a5e81f5b3f05abb2823a7",
+				"digest": "1610154fccb73b51a719a799842d6a7a36524ae0dfb47a0425f9cc3d321cda47",
 				"service": "nginx"
 			},
 			{
