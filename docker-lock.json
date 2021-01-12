@@ -22,7 +22,7 @@
 			{
 				"name": "postgres",
 				"tag": "latest",
-				"digest": "0813fa9554ed0132488c271fbe1e559a861b44a368f40ec01b3bbb8c28789db5",
+				"digest": "5370e3370ecc20a4a2935fc29efb760af091bb6615526b541d42664dfbea3998",
 				"service": "postgres"
 			},
 			{
