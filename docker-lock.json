@@ -28,7 +28,7 @@
 			{
 				"name": "redis",
 				"tag": "latest",
-				"digest": "31901c8d244fe1b6d82f42a3e801077fb23a250ba25f35b1c0186f89a9bdd9bc",
+				"digest": "586bab396d99205cb1552705881a78eadc1a38f59c514e3d5169d93793ebd559",
 				"service": "redis"
 			}
 		]
