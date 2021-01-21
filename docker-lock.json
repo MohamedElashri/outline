@@ -4,7 +4,7 @@
 			{
 				"name": "minio/minio",
 				"tag": "latest",
-				"digest": "714528721cac6e7fcdeb345aed760161c88834d1cf103f04a3b7dd586f0765f8",
+				"digest": "fafd3af791a0c564b73d995ef3f8d7bde4d0caf25b32bec3a11dc71a9096479a",
 				"service": "minio"
 			},
 			{
@@ -22,7 +22,7 @@
 			{
 				"name": "postgres",
 				"tag": "latest",
-				"digest": "ec74afc9fa969a235462c27017a3fe73a05c9d4725d7e4afbe2ba6eb82fdfc87",
+				"digest": "32bd0b5c13c49c69b71211b6c1e1db550b74af54759d98045731131d863e5a5c",
 				"service": "postgres"
 			},
 			{
