@@ -4,7 +4,7 @@
 			{
 				"name": "minio/minio",
 				"tag": "latest",
-				"digest": "3b6bc59b4266094e3d98fc82286208151f34504b884c26da6782315e45b97efc",
+				"digest": "84a74cd1db07afdc0a399cc9882af4dcc1dbc39636133e818daf76b4e3da469b",
 				"service": "minio"
 			},
 			{
