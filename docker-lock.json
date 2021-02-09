@@ -10,7 +10,7 @@
 			{
 				"name": "nginx",
 				"tag": "latest",
-				"digest": "10b8cc432d56da8b61b070f4c7d2543a9ed17c2b23010b43af434fd40e2ca4aa",
+				"digest": "3398e583106fc203332a08b6e2faed538f1bd21b3342efaf5edc74cf308ccf75",
 				"service": "nginx"
 			},
 			{
@@ -22,7 +22,7 @@
 			{
 				"name": "postgres",
 				"tag": "latest",
-				"digest": "c32f3f8364d79f71958c9ada74c43c2033d7e13d9d5fc21d3ba89322e6559c9d",
+				"digest": "d96fa843390dfdbea4802de844b69fd9c402717cdced08ea6762cab62c99aff7",
 				"service": "postgres"
 			},
 			{
