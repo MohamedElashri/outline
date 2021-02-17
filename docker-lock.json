@@ -4,13 +4,13 @@
 			{
 				"name": "minio/minio",
 				"tag": "latest",
-				"digest": "d8c918bc45b5818c60e286d6ede241dbc50df1f790f476a8257248c9683f844c",
+				"digest": "1fb38a8c7e4cd7e5d7f83048f87ff38783179fcd1dd3f8e24309a86b7062326f",
 				"service": "minio"
 			},
 			{
 				"name": "nginx",
 				"tag": "latest",
-				"digest": "8e10956422503824ebb599f37c26a90fe70541942687f70bbdb744530fc9eba4",
+				"digest": "057b31a0de3162b168b5479003422f9824c3b7c3d496676ff5611cd15f079dd8",
 				"service": "nginx"
 			},
 			{
@@ -22,7 +22,7 @@
 			{
 				"name": "postgres",
 				"tag": "latest",
-				"digest": "b3962b5e0056b9b122aad575d002be9ec7664dc486eec2a88a14b369ecae8f72",
+				"digest": "5cfcfb0516ddd317109e2746a462b1dc398d152936640a2b69284629f48dc288",
 				"service": "postgres"
 			},
 			{
