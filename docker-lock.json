@@ -4,7 +4,7 @@
 			{
 				"name": "minio/minio",
 				"tag": "latest",
-				"digest": "1fb38a8c7e4cd7e5d7f83048f87ff38783179fcd1dd3f8e24309a86b7062326f",
+				"digest": "df0e9fe6f927905c892f04c710b14de85d5f890f1796c52c1e647956be64b9ea",
 				"service": "minio"
 			},
 			{
@@ -28,7 +28,7 @@
 			{
 				"name": "redis",
 				"tag": "latest",
-				"digest": "f29bcfb891678a0c6a0fc5da0b32ce1ac685af87c0f3aa9327e562da8d3f3b88",
+				"digest": "26bd5f3d2bbfb21d0e4f03d642570e63c8776d2a9e5963e4057280fb3b4e3e29",
 				"service": "redis"
 			}
 		]
